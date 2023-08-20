@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.color_btn{
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+.color_btn:hover{
+   
+    background-color: brown;
+    transition: .5s;
+   
+}
