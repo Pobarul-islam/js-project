@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Welcome To Your Bank Account</h1>
+
+      <div class="card-section">
+        <div class="card1">
+          <h3>Deposit</h3>
+          <h2>$<span id="deposit-total">00</span></h2>
+        </div>
+        <div class="card2">
+          <h3>Withdraw</h3>
+          <h2>$<span id="withdraw-total">00</span></h2>
+        </div>
+        <div class="card3">
+          <h3>Balance</h3>
+          <h2>$<span id="balance-total">1020</span></h2>
+        </div>
+      </div>
+
+      <!-- deposit and withdraw section  -->
+
+      <div class="deposit-card-section">
+        <div class="deposit-card1">
+          <h3>Please Deposit</h3>
+          <div class="deposit-input">
+            <input
+              type="text"
+              id="deposit-field"
+              placeholder="Deposit Your Balance..."
+            />
+            <br />
+            <button class="deposit-btn" id="deposit-btn">Deposit</button>
+          </div>
+        </div>
+        <div class="deposit-card2">
+          <h3>Please Withdraw</h3>
+          <div class="deposit-input">
+            <input
+              id="withdraw-field"
+              type="text"
+              placeholder="Withdraw Your Balance..."
+            />
+            <br />
+            <button id="withdraw-btn" class="deposit-btn">Withdraw</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/deposit.js"></script>
+    <script src="./js/withdraw.js"></script>
+  </body>
+</html>
