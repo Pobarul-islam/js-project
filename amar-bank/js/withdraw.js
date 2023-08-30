@@ -5,15 +5,13 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
 
   const withDrawTotalElement = document.getElementById("withdraw-total");
   const previousWithDrawTotalString = withDrawTotalElement.innerText;
-    const previousWithdrawTotal = parseFloat(previousWithDrawTotalString);
+  const previousWithdrawTotal = parseFloat(previousWithDrawTotalString);
 
-      if (newWithDrawAmount > previousWithdrawTotal) {
-          alert("balance nai");
-          return;
-      }
+  if (newWithDrawAmount > previousWithdrawTotal) {
+    alert("balance nai");
+    return;
+  }
 
-  
-  
   const currentWithdrawTotal = previousWithdrawTotal + newWithDrawAmount;
   withDrawTotalElement.innerText = currentWithdrawTotal;
 
