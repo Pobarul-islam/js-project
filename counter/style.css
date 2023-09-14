@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.countersymble {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.main {
+  text-align: center;
+}
+
+#add {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#minus {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
